@@ -17,7 +17,15 @@ public class MainActivity extends AppCompatActivity {
 //        Log.d() => truy cập vào chức năng của đối tượng Log
         //ctrl + P : Phím gợi ý tham số truyền vào
         //alt + enter : phim gợi ý sửa lỗi
-        Log.d("A","Xin chao");
+
+        //Phương thức chuyển đổi kiểu dữ liệu
+        //int -> String : String.valueof()
+        //String -> int : Integer.parseint()
+
+        //wrap_boxing , auto_boxing
+        String output = String.valueOf(number1);
+        int valueconvert = Integer.parseInt(output);
+        Log.d("AAA",output);
     }
 
 }
